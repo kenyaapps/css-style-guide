@@ -3,36 +3,36 @@
 /*END DEFINING VARIABLES*/
 /*INTRODUCE OTHER FILES*/
 h1 {
-  font-size: 89px;
-  font-weight: 900;
+  font-size: 89px !important !important;
+  font-weight: 900 !important;
 }
 h2 {
-  font-size: 55px;
-  font-weight: 700;
+  font-size: 55px !important;
+  font-weight: 700 !important;
 }
 h3 {
-  font-size: 34px;
-  font-weight: 400;
+  font-size: 34px !important;
+  font-weight: 400 !important;
 }
 h4 {
-  font-size: 21px;
-  font-weight: 400;
+  font-size: 21px !important;
+  font-weight: 400 !important;
 }
 h5 {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
 p {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 16px !important;
+  font-weight: 300 !important;
 }
 span {
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 16px !important;
+  font-weight: 100 !important;
 }
 small {
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 12px !important;
+  font-weight: 100 !important;
 }
 /*Begin text colors*/
 .orange-text {
@@ -56,30 +56,37 @@ small {
 /*End text colors*/
 /*Begin background colors*/
 .orange {
-  background-color: #FF9800;
+  background: #FF9800;
 }
 .dark {
-  background-color: #424242;
+  background: #424242;
 }
 .alto {
-  background-color: #DEDEDE;
+  background: #DEDEDE;
 }
 .silver {
-  background-color: #9E9E9E;
+  background: #9E9E9E;
 }
 .light {
-  background-color: #EFEFEF;
+  background: #EFEFEF;
 }
 .white {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
 }
 /*End background colors*/
+.z-shadow {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.border-radius {
+  border-radius: 2px;
+}
 html,
 body {
   font-family: 'Roboto', sans-serif;
 }
 .card {
-  background: #EFEFEF;
   border-radius: 2px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -95,4 +102,39 @@ body {
 .card .card-action {
   padding: 12px 21px;
   border-top: 1px solid #DEDEDE;
+}
+.btn {
+  border-radius: 0px;
+}
+.btn-action {
+  background: #FF9800;
+  color: #FFFFFF;
+}
+.btn-action:focus,
+.btn-action:hover,
+.btn-action:active {
+  background: #e68900;
+  color: #FFFFFF;
+  outline: none;
+}
+.btn-default {
+  background: #DEDEDE;
+  color: #424242;
+}
+.btn-default:focus,
+.btn-default:hover,
+.btn-default:active {
+  background: #d1d1d1;
+  color: #424242;
+  outline: none;
+}
+.disabled {
+  background: #EFEFEF;
+  color: #DEDEDE;
+}
+.disabled:focus,
+.disabled:hover,
+.disabled:active {
+  color: #DEDEDE;
+  background: #EFEFEF;
 }

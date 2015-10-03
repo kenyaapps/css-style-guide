@@ -1,0 +1,39 @@
+.btn {
+   border-radius: 0px;
+}
+.btn-action {
+   background: @orange;
+   color: @white;
+   &:focus, &:hover, &:active {
+     background: darken(@orange, 5%);
+     color: @white;
+     outline: none;
+   }
+}
+
+.btn-cancel {
+
+}
+
+.btn-more {
+
+}
+
+.btn-default {
+  background: @alto;
+   color: @dark;
+   &:focus, &:hover, &:active {
+     background: darken(@alto, 5%);
+     color: @dark;
+     outline: none;
+   }
+}
+
+.disabled {
+  background: @light;
+  color: @alto;
+  &:focus, &:hover, &:active {
+      color: @alto;
+      background: @light;
+  }
+}
