@@ -156,13 +156,6 @@ body {
   background: #EFEFEF;
   color: #DEDEDE;
 }
-.disabled:focus,
-.disabled:hover,
-.disabled:active {
-  background: #dedede;
-  color: #EFEFEF;
-  outline: none;
-}
 /* End global buttons styling */
 /* Begin outlined buttons */
 .btn-action-outlined {
