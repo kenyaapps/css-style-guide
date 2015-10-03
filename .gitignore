@@ -32,5 +32,6 @@ Vagrantfile
 .DS*
 node_modules/
 node-modules/
+bower_components/
 .vagrant/
 .vagrant2/

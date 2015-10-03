@@ -1,0 +1,27 @@
+{
+  "name": "style-guide",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kenyaapps/css-style-guide",
+  "authors": [
+    "Felix Cheruiyot <felix.cheruiyot@kenyaapps.net>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "Apache",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-select": "~1.7.4",
+    "jquery-labelauty": "~1.1.0",
+    "bootstrap": "~3.3.5"
+  }
+}
