@@ -159,7 +159,7 @@ body {
 .disabled:focus,
 .disabled:hover,
 .disabled:active {
-  background: #d1d1d1;
+  background: #dedede;
   color: #EFEFEF;
   outline: none;
 }
@@ -173,7 +173,7 @@ body {
 .btn-action-outlined:focus,
 .btn-action-outlined:hover,
 .btn-action-outlined:active {
-  background: #e68900;
+  background: #ff9800;
   color: #FFFFFF;
   outline: none;
 }
@@ -185,7 +185,7 @@ body {
 .btn-more-outlined:focus,
 .btn-more-outlined:hover,
 .btn-more-outlined:active {
-  background: #353535;
+  background: #424242;
   color: #FFFFFF;
   outline: none;
 }
@@ -197,7 +197,7 @@ body {
 .btn-default-outlined:focus,
 .btn-default-outlined:hover,
 .btn-default-outlined:active {
-  background: #d1d1d1;
+  background: #dedede;
   color: #424242;
   outline: none;
 }

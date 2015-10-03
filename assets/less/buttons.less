@@ -4,9 +4,9 @@
    outline: none;
 }
 
-.active_state(@color, @bg){
+.active_state(@color, @bg, @darken:0%){
   &:focus, &:hover, &:active {
-     background: darken(@bg, 5%);
+     background: darken(@bg, @darken);
      color: @color;
      outline: none;
    }
@@ -15,25 +15,25 @@
 .btn-action {
    background: @orange;
    color: @white;
-   .active_state(@white, @orange);
+   .active_state(@white, @orange, 5%);
 }
 
 .btn-cancel {
   background: @white;
    color: @orange;
-   .active_state(@orange, @light);
+   .active_state(@orange, @light, 5%);
 }
 
 .btn-more {
   background: @dark;
    color: @white;
-   .active_state(@white, @dark);
+   .active_state(@white, @dark, 5%);
 }
 
 .btn-default {
   background: @alto;
    color: @dark;
-   .active_state(@dark, @alto);
+   .active_state(@dark, @alto, 5%);
 }
 
 .disabled {
