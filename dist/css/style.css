@@ -103,8 +103,10 @@ body {
   padding: 12px 21px;
   border-top: 1px solid #DEDEDE;
 }
+/* Begin global buttons styling */
 .btn {
   border-radius: 0px;
+  outline: none;
 }
 .btn-action {
   background: #FF9800;
@@ -113,7 +115,29 @@ body {
 .btn-action:focus,
 .btn-action:hover,
 .btn-action:active {
-  background: #e68900;
+  background: #f2f2f2;
+  color: #FF9800;
+  outline: none;
+}
+.btn-cancel {
+  background: #FFFFFF;
+  color: #FF9800;
+}
+.btn-cancel:focus,
+.btn-cancel:hover,
+.btn-cancel:active {
+  background: #e2e2e2;
+  color: #FF9800;
+  outline: none;
+}
+.btn-more {
+  background: #424242;
+  color: #FFFFFF;
+}
+.btn-more:focus,
+.btn-more:hover,
+.btn-more:active {
+  background: #353535;
   color: #FFFFFF;
   outline: none;
 }
@@ -135,6 +159,46 @@ body {
 .disabled:focus,
 .disabled:hover,
 .disabled:active {
+  background: #e2e2e2;
   color: #DEDEDE;
-  background: #EFEFEF;
+  outline: none;
 }
+/* End global buttons styling */
+/* Begin outlined buttons */
+.btn-action-outlined {
+  background: #FFFFFF;
+  color: #FF9800;
+  border: 1px solid #FF9800;
+}
+.btn-action-outlined:focus,
+.btn-action-outlined:hover,
+.btn-action-outlined:active {
+  background: #f2f2f2;
+  color: #FF9800;
+  outline: none;
+}
+.btn-more-outlined {
+  background: #FFFFFF;
+  color: #424242;
+  border: 1px solid #424242;
+}
+.btn-more-outlined:focus,
+.btn-more-outlined:hover,
+.btn-more-outlined:active {
+  background: #353535;
+  color: #FFFFFF;
+  outline: none;
+}
+.btn-default-outlined {
+  background: #FFFFFF;
+  color: #DEDEDE;
+  border: 1px solid #DEDEDE;
+}
+.btn-default-outlined:focus,
+.btn-default-outlined:hover,
+.btn-default-outlined:active {
+  background: #d1d1d1;
+  color: #424242;
+  outline: none;
+}
+/* End outlined buttons */

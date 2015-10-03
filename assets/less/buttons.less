@@ -1,39 +1,67 @@
+/* Begin global buttons styling */
 .btn {
    border-radius: 0px;
+   outline: none;
 }
-.btn-action {
-   background: @orange;
-   color: @white;
-   &:focus, &:hover, &:active {
-     background: darken(@orange, 5%);
-     color: @white;
+
+.active_state(@color, @bg){
+  &:focus, &:hover, &:active {
+     background: darken(@bg, 5%);
+     color: @color;
      outline: none;
    }
 }
 
-.btn-cancel {
+.btn-action {
+   background: @orange;
+   color: @white;
+   .active_state(@orange, @white);
+}
 
+.btn-cancel {
+  background: @white;
+   color: @orange;
+   .active_state(@orange, @light);
 }
 
 .btn-more {
-
+  background: @dark;
+   color: @white;
+   .active_state(@white, @dark);
 }
 
 .btn-default {
   background: @alto;
    color: @dark;
-   &:focus, &:hover, &:active {
-     background: darken(@alto, 5%);
-     color: @dark;
-     outline: none;
-   }
+   .active_state(@dark, @alto);
 }
 
 .disabled {
   background: @light;
   color: @alto;
-  &:focus, &:hover, &:active {
-      color: @alto;
-      background: @light;
-  }
+  .active_state(@alto, @light);
 }
+/* End global buttons styling */
+
+/* Begin outlined buttons */
+.btn-action-outlined {
+  background: @white;
+  color: @orange;
+  border: 1px solid @orange;
+  .active_state(@orange, @white);
+}
+
+.btn-more-outlined {
+  background: @white;
+  color: @dark;
+  border: 1px solid @dark;
+  .active_state(@white, @dark);
+}
+
+.btn-default-outlined {
+  background: @white;
+  color: @alto;
+  border: 1px solid @alto;
+  .active_state(@dark, @alto);
+}
+/* End outlined buttons */
