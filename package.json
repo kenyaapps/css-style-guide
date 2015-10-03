@@ -1,0 +1,24 @@
+{
+  "name": "css-style-guide",
+  "version": "1.0.0",
+  "description": "Kenya Apps Network web living style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenyaapps/css-style-guide.git"
+  },
+  "author": "Felix Cheruiyot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenyaapps/css-style-guide/issues"
+  },
+  "homepage": "https://github.com/kenyaapps/css-style-guide",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-watch": "^4.3.5"
+  }
+}
