@@ -1,6 +1,6 @@
 /* Begin global buttons styling */
 .btn {
-   border-radius: 0px;
+   border-radius: 2px;
    outline: none;
 }
 
@@ -15,7 +15,7 @@
 .btn-action {
    background: @orange;
    color: @white;
-   .active_state(@orange, @white);
+   .active_state(@white, @orange);
 }
 
 .btn-cancel {
@@ -39,7 +39,7 @@
 .disabled {
   background: @light;
   color: @alto;
-  .active_state(@alto, @light);
+  .active_state(@light, @alto);
 }
 /* End global buttons styling */
 
@@ -47,21 +47,21 @@
 .btn-action-outlined {
   background: @white;
   color: @orange;
-  border: 1px solid @orange;
-  .active_state(@orange, @white);
+  border: 2px solid @orange;
+  .active_state(@white, @orange);
 }
 
 .btn-more-outlined {
   background: @white;
   color: @dark;
-  border: 1px solid @dark;
+  border: 2px solid @dark;
   .active_state(@white, @dark);
 }
 
 .btn-default-outlined {
   background: @white;
   color: @alto;
-  border: 1px solid @alto;
+  border: 2px solid @alto;
   .active_state(@dark, @alto);
 }
 /* End outlined buttons */
