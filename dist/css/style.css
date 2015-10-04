@@ -85,6 +85,8 @@ small {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
 }
 .card {
   border-radius: 2px;
@@ -224,6 +226,33 @@ form .outlined {
   border-right: none;
   border-left: none;
 }
+.alert {
+  background: white;
+  border-width: 2px;
+  border-radius: 0px;
+}
+/*Begin spacer styling*/
+.spacer-lg {
+  padding-top: 89px;
+  padding-bottom: 89px;
+}
+.spacer-md {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.spacer-sm {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+.spacer-xs {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.spacer-xxs {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+/*End spacer styling*/
 /*
  	Begin margin helpers
  	Attempt to use fibonacci for natural balancing
@@ -250,4 +279,19 @@ form .outlined {
 }
 /* End margin helpers */
 /* Begin icon sizing helpers */
+.icon-xxs {
+  font-size: 21px;
+}
+.icon-xs {
+  font-size: 34px;
+}
+.icon-sm {
+  font-size: 55px;
+}
+.icon-md {
+  font-size: 89px;
+}
+.icon-lg {
+  font-size: 144px;
+}
 /* End icon sizing helpers */
