@@ -213,3 +213,14 @@ textarea:focus {
   border-color: #9E9E9E;
   box-shadow: none;
 }
+form {
+  /*
+    Partial material like style. 
+    Leaving only the bottom border
+  */
+}
+form .outlined {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
